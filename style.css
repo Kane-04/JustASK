@@ -538,7 +538,7 @@ footer{
 .carousel__image-text {
     display: flex;
     flex-wrap: wrap;
-    max-width: 70%;
+    max-width: 90%;
 
     color: white;
     font-family: var(--font-family-text);
