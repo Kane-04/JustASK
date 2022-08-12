@@ -25,17 +25,43 @@
         <div class="main-page">
             <div class="main-page__logo-name">
                 <div class="main-page__image-placeholder"></div>
-                <h1 class="main-page__name">JustASK</h1>
+                <h2 class="main-page__name">JustASK</h1>
             </div>
             <h4 class="main-page__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
         </div>
         <div class="past-project">
             <div class="past-project__header">
-                <h2 class="past-project__header__title">Accomplished Projects</h2>
+                <h3 class="past-project__header__title"><b>Accomplished Projects</b></h3>
                 <h6 class="past-project__header__subtitle">Peek at how the company performs through past accomplishments. </h6>
             </div>
             <div class="past-project__carousel">
-
+                <div class="carousel-whole">
+                    <a class="carousel__arrows carousel__left-arrow" onclick="moveImage(-1)">❮</a>
+                    <div class="carousel__image carousel__image-1 fade-in">
+                        <div class="carousel__text-gradient-bg">
+                            <div class="carousel__image-text project-name">Project Name</div>
+                            <div class="carousel__image-text project-desc">Project Description</div>
+                        </div>
+                    </div>
+                    <div class="carousel__image carousel__image-2 fade-in">
+                        <div class="carousel__text-gradient-bg">
+                            <div class="carousel__image-text project-name">Project Name</div>
+                            <div class="carousel__image-text project-desc">Project Description</div>
+                        </div>
+                    </div>
+                    <div class="carousel__image carousel__image-3 fade-in">
+                        <div class="carousel__text-gradient-bg">
+                            <div class="carousel__image-text project-name">Project Name</div>
+                            <div class="carousel__image-text project-desc">Project Description</div>
+                        </div>
+                    </div>
+                    <a class="carousel__arrows carousel__right-arrow" onclick="moveImage(1)">❯</a>
+                </div>              
+                <div class="carousel__dots">
+                    <span class="carousel__dot" onclick="currentImage(1)"></span>
+                    <span class="carousel__dot" onclick="currentImage(2)"></span>
+                    <span class="carousel__dot" onclick="currentImage(3)"></span>
+                </div>
             </div>
         </div>
     </section>
